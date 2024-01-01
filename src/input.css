@@ -7,7 +7,6 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-
 .navbar-fixed{
     @apply fixed z-[9999] border-b-2 border-primary lg:border-b-4 bg-opacity-95;
     backdrop-filter: blur(5px);
