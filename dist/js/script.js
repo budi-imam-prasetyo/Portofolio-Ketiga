@@ -1,21 +1,20 @@
 //? Navbar fixed
-window.onscroll = function(){
-    const header = document.querySelector('header')
-    const fixedNav = header.offsetTop;
+window.onscroll = function () {
+  const header = document.querySelector("header");
+  const fixedNav = header.offsetTop;
 
-    if(window.pageYOffset > fixedNav){
-        header.classList.add('navbar-fixed')
-    }else{
-        header.classList.remove
-    }
-}
-
+  if (window.pageYOffset > fixedNav) {
+    header.classList.add("navbar-fixed");
+  } else {
+    header.classList.remove;
+  }
+};
 
 //? Hamburger
-const hamburger = document.querySelector('#hamburger');
-const navMenu = document.querySelector('#nav-menu')
+const hamburger = document.querySelector("#hamburger");
+const navMenu = document.querySelector("#nav-menu");
 
-hamburger.addEventListener('click', function(){
-    hamburger.classList.toggle('hamburger-active')
-    navMenu.classList.toggle('hidden')
-})
+hamburger.addEventListener("click", function () {
+  hamburger.classList.toggle("hamburger-active");
+  navMenu.classList.toggle("hidden");
+});
